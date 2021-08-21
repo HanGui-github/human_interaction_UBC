@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://people.ok.ubc.ca/bowenhui/341/2020/project/p4starter/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Static Icon Layout</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+  </head>
+  <body data-new-gr-c-s-check-loaded="14.996.0" data-gr-ext-installed="">
+    <div id="trueWindow">
+	  <p id="frequency" class="centered">frequencies: 0, 0, 0, 0, 0</p>
+	  <p id="position" class="centered">You are at: </p>
+      <div class="centered">
+        <p id="compass">Click This Icon: 
+          <img id="indicator" width="50" height="50">
+        </p>
+      </div>
+      <p id="counter">click start button to begin.</p>
+      <div id="buttonCast">
+        <input type="button" id="startBtn" value="Start">
+      </div>
+	  <!-- ImageDrawer is changed from a span to a div  -->
+      <div  class="ImageDrawer" id="iconDrawer">
+        <img class="icon" id="i0" src="./i0.jpg" width="50" height="50">
+        <!--TODO: More Icons Here (number them in order, so i1..i4 -->
+        <img class="icon" id="i1" src="./i1.jpg" width="50" height="50">
+        <img class="icon" id="i2" src="./i2.jpg" width="50" height="50">
+        <img class="icon" id="i3" src="./i3.jpg" width="50" height="50">
+        <img class="icon" id="i4" src="./i4.jpg" width="50" height="50">        
+      </div >
+    </div> 
+  
+    <script>
+      require('./renderer.js')
+    </script>
+</body></html>
