@@ -1,0 +1,16 @@
+{
+  "name": "literate-time-misspell-guxd0",
+  "productName": "literate-time-misspell-guxd0",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "NLTT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "9.0.2"
+  }
+}

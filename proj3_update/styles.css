@@ -1,0 +1,17 @@
+.art-gallery-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.fee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.p{
+	text-align: center;
+}
